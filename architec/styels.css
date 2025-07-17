@@ -150,11 +150,14 @@ main > section{
         font-size: 1.2rem;
         font-weight: 700;
     }
-    .team-img-contenar{
-        grid-template-columns: repeat(1, 1fr);
+    .team-img-contenar, .facts-contenar{
+        grid-template-columns: repeat(1 ,1fr);
     }
     .our-features{
         margin-left: 20px;
+    }
+    .facts-contenar{
+        justify-items: center;
     }
 }
 
